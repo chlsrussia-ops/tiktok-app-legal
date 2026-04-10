@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Content Automation Bot — Social Media Analytics Platform</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1a1a2e; background: #ffffff; line-height: 1.6; }
+    .header { background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); color: #fff; padding: 80px 20px 60px; text-align: center; }
+    .header h1 { font-size: 2.4rem; margin-bottom: 16px; font-weight: 700; }
+    .header p { font-size: 1.15rem; max-width: 640px; margin: 0 auto; opacity: 0.9; }
+    .container { max-width: 960px; margin: 0 auto; padding: 60px 20px; }
+    h2 { font-size: 1.5rem; margin-bottom: 16px; color: #302b63; }
+    .section { margin-bottom: 48px; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin-top: 24px; }
+    .feature-card { background: #f8f9fb; border-radius: 12px; padding: 28px; border: 1px solid #e8e8f0; }
+    .feature-card h3 { font-size: 1.1rem; margin-bottom: 8px; color: #302b63; }
+    .feature-card p { font-size: 0.95rem; color: #555; }
+    .badge { display: inline-block; background: #302b63; color: #fff; font-size: 0.75rem; padding: 4px 10px; border-radius: 20px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .footer { background: #f4f4f8; padding: 40px 20px; text-align: center; font-size: 0.9rem; color: #666; }
+    .footer a { color: #302b63; text-decoration: none; margin: 0 12px; }
+    .footer a:hover { text-decoration: underline; }
+    .footer .links { margin-bottom: 16px; }
+    .how-it-works ol { padding-left: 20px; }
+    .how-it-works li { margin-bottom: 12px; font-size: 1rem; color: #444; }
+    .info-box { background: #eef1ff; border-left: 4px solid #302b63; padding: 20px 24px; border-radius: 0 8px 8px 0; margin-top: 24px; }
+    .info-box p { font-size: 0.95rem; color: #333; }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Content Automation Bot</h1>
+  <p>An analytics platform that identifies trending content and engagement patterns across social media to help businesses make data-driven decisions.</p>
+</div>
+
+<div class="container">
+  <div class="section">
+    <h2>What We Do</h2>
+    <p>Content Automation Bot is a professional analytics tool designed for businesses and content creators. Our platform monitors publicly available social media content to identify emerging trends, popular topics, and engagement patterns. We provide actionable insights that help our users create better content strategies.</p>
+
+    <div class="features">
+      <div class="feature-card">
+        <span class="badge">Analytics</span>
+        <h3>Trend Detection</h3>
+        <p>Automatically identifies trending topics, hashtags, and content formats across social media platforms using public data.</p>
+      </div>
+      <div class="feature-card">
+        <span class="badge">Insights</span>
+        <h3>Engagement Analysis</h3>
+        <p>Analyzes publicly available engagement metrics to understand what content resonates with audiences.</p>
+      </div>
+      <div class="feature-card">
+        <span class="badge">Reports</span>
+        <h3>Content Reports</h3>
+        <p>Generates comprehensive trend reports to help businesses plan their content calendar and marketing strategy.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section how-it-works">
+    <h2>How It Works</h2>
+    <ol>
+      <li><strong>Data Collection</strong> — The platform accesses publicly available content through official APIs (including TikTok Display API) to gather trend information.</li>
+      <li><strong>Analysis</strong> — Our system processes the collected data to identify patterns, trending topics, and engagement trends.</li>
+      <li><strong>Reporting</strong> — Users receive structured reports and dashboards with actionable insights about current content trends.</li>
+    </ol>
+
+    <div class="info-box">
+      <p><strong>Privacy First:</strong> We only access publicly available data through official APIs. We do not collect, store, or process any private user information. No user authentication or login is required from end users of the analyzed platforms.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Platform Integration</h2>
+    <p>Content Automation Bot integrates with TikTok through the official TikTok for Developers API (Display API). We use the following scopes:</p>
+    <ul style="margin-top: 12px; padding-left: 20px; color: #444;">
+      <li><strong>user.info.profile</strong> — To read basic public profile information for trend attribution.</li>
+      <li><strong>video.list</strong> — To read publicly available video data for trend analysis and engagement pattern detection.</li>
+    </ul>
+    <p style="margin-top: 16px; color: #444;">All data access is <strong>read-only</strong>. The application does not post content, send messages, follow accounts, or perform any actions on behalf of any user.</p>
+  </div>
+
+  <div class="section">
+    <h2>Contact</h2>
+    <p>For questions, support, or data-related inquiries, please contact us:</p>
+    <p style="margin-top: 8px;"><strong>Email:</strong> support@mybot123.org</p>
+    <p><strong>Website:</strong> mybot123.org</p>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="links">
+    <a href="terms.html">Terms of Service</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+  <p>&copy; 2026 Content Automation Bot. All rights reserved.</p>
+</div>
+
+</body>
+</html>
